@@ -1,0 +1,275 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.greyLight {
+    color: #ebeff2;
+}
+
+.greyBorder {
+    color: #adaeae;
+}
+
+.lightBorder {
+    color: #e1e6e9;
+}
+
+.cyan {
+    color: #4bb5f1;
+}
+
+.navy {
+    color: #032e49;
+}
+
+.navyDark {
+    color: #001625;
+}
+
+.pink {
+    color: #e24a93;
+}
+
+.purpleDark {
+    color: #7a3495;
+}
+
+.purpleLight {
+    color: #8c42a5;
+}
+
+.turqLight {
+    color: #68dcc7;
+}
+
+.turqDark {
+    color: #53cbb3;
+}
+
+.bodyColor {
+    color: #333333;
+}
+
+.darkBlack {
+    color: #333333;
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+
+a:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+i,
+em,
+dfn {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+small {
+    font-size: 85%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+
+
+.button {
+    font-family: 'Lato';
+    color: rgba(255,255,255,0.8);
+    border: none;
+    font-weight: 400;
+    padding: 12px 30px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button.green, .pricing #plans .flexslider .slides > li .plan-wrap .button.signup,
+.blog.single-post #main #article-footer ul#next-previous li:first-child a,
+.blog.single-post #main #article-footer ul#next-previous li:nth-child(2) a {
+    background: url(../images/bg-green-button.png) center center no-repeat #58bfac;
+}
+
+.button.green:hover, .pricing #plans .flexslider .slides > li .plan-wrap .button.signup:hover,
+.blog.single-post #main #article-footer ul#next-previous li:first-child a:hover,
+.blog.single-post #main #article-footer ul#next-previous li:nth-child(2) a:hover {
+    background-color: #46b19b;
+}
+
+.button.green-stroke {
+    border: 1px solid #68dcc7;
+    background: url(../images/bg-white-button.png) center center no-repeat;
+}
+
+.button.green-stroke:hover {
+    background-color: #46b19b;
+}
+
+.button.pink {
+    background: url(../images/bg-pink-button.png) center center no-repeat #e24a93;
+    font-size: 13px;
+}
+
+.button.pink:hover {
+    background-color: #C43378;
+}
+
+.button.purple {
+    background: url(../images/bg-purple-button.png) center center no-repeat #8c42a5;
+}
+
+.button.purple:hover {
+    background-color: #7a3495;
+}
+
+.button.black {
+    background: #001c2f;
+}
+
+.button.black:hover {
+    background: #003a62;
+}
+
+.button.blue, .pricing #plans .plan-columns.columns.best-value .button.signup,
+.pricing #plans .flexslider .slides > li .plan-wrap.best-value .button.signup {
+    background: url(../images/bg-blue-button.png) center center no-repeat #4bb5f1;
+}
+
+.button.blue:hover, .pricing #plans .plan-columns.columns.best-value .button.signup:hover,
+.pricing #plans .flexslider .slides > li .plan-wrap.best-value .button.signup:hover {
+    background: url(../images/bg-blue-button.png) center center no-repeat #3ca7d9;
+}
+
+.button.grey, .pricing #plans .plan-columns.columns .button.discount,
+.pricing #plans .plan-columns.columns .button.signup {
+    background: url(../images/bg-grey-button.png) center center no-repeat white;
+    color: #333333;
+    border: 1px solid #adaeae;
+}
+
+.button.grey:hover, .pricing #plans .plan-columns.columns .button.discount:hover,
+.pricing #plans .plan-columns.columns .button.signup:hover {
+    background: url(../images/bg-grey-button.png) center center no-repeat #f6f6f6;
+}
+
+.button.small {
+    font-size: 11px;
+}
+
+.ui-controls ul {
+    padding: 0;
+    margin: 0 2%;
+    max-width: 96%;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+    padding-right: 0 !important;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+textarea {
+    -webkit-appearance: none;
+    background: #ebeff2;
+    border: 0;
+    padding: 10px;
+    -webkit-box-shadow: inset 2px 3px 3px #d4dade;
+    -moz-box-shadow: inset 2px 3px 3px #d4dade;
+    box-shadow: inset 2px 3px 3px #d4dade;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+    font-family: 'Lato';
+}
+
+input[type="text"].error,
+input[type="search"].error,
+input[type="email"].error,
+input[type="password"].error,
+textarea.error {
+    border: 1px solid #9E06DA;
+}
+
+
